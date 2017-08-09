@@ -1,0 +1,39 @@
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <app-pageheader title="ダッシュボード"></app-pageheader>
+  <!-- Main content -->
+  <section class="content">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <app-infobox background="bg-aqua" number="9999" icon="fa-user" text="オーナー数"></app-infobox>
+      </div>
+      <!-- /.col -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <app-infobox background="bg-red" number="9999" icon="fa-globe" text="コミュニティー数"></app-infobox>
+      </div>
+      <!-- /.col -->
+      <!-- fix for small devices only -->
+      <div class="clearfix visible-sm-block"></div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <app-infobox background="bg-green" number="9999" icon="ion ion-speedometer" text="アクティブ率(前月)"></app-infobox>
+        <!-- /.info-box -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <app-infobox background="bg-yellow" number="9999" icon="fa-users" text="ユーザー数"></app-infobox>
+        <!-- /.info-box -->
+      </div>
+      <!-- /.col -->
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <app-infobox background="bg-purple" number="9999" icon="fa-comments-o" text="チャットbotメッセージ総数"></app-infobox>
+        <!-- /.info-box -->
+      </div>
+      <!-- /.col -->
+    </div>
+
+    <app-dashboard-datatable title="管理者へのお知らせ" [rows]="rows" [cols]="cols"></app-dashboard-datatable>
+  </section>
+  <!-- /.content -->
+</div>
