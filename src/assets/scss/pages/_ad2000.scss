@@ -1,0 +1,12 @@
+.ad2000 {
+  .btn.btn-primary {
+    margin-bottom: 20px;
+    min-width: 100px;
+  }
+  th[rowspan="2"],td[rowspan="2"]{
+    vertical-align: middle;
+  }
+  .table-hover>tbody>tr:hover {
+    background-color: #fff;
+  }
+}

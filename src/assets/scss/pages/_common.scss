@@ -1,0 +1,14 @@
+.table-two-custom-col {
+  table-layout: fixed;
+  .last-col {
+    width: 30px;
+  }
+  tr {
+    td:last-child {
+      text-align: center;
+    }
+    td:nth-last-child(2) {
+      text-align: center;
+    }
+  }
+}

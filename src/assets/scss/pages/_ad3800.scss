@@ -1,0 +1,16 @@
+.ad3800 {
+  table {
+    table-layout: fixed;
+    .last-col {
+      width: 30px;
+    }
+    tr {
+      td:last-child {
+        text-align: center;
+      }
+    }
+    a {
+      word-break: break-all;
+    }
+  }
+}
